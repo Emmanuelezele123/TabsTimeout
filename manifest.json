@@ -1,0 +1,15 @@
+
+{
+    "manifest_version": 2,
+    "name": "Tab Timeout",
+    "version": "1.1",
+    "description": "Closes inactive tabs after 2 minutes, except the active tab",
+    "permissions": [
+      "tabs",
+      "alarms"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
