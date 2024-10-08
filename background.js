@@ -1,4 +1,4 @@
-const TIMEOUT = 1; // timeout in minutes
+const TIMEOUT = 30; // timeout in minutes
 
 let activeTabId;
 
